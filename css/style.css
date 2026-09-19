@@ -40,6 +40,8 @@ body
     max-width: 1068px;
     margin: auto;
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 header
 {
@@ -396,6 +398,7 @@ header
     font-size: 0.9rem;
     color: var(--text-color);
 }
+/*download*/
 .video-container video
 {
     width: 100%;
@@ -448,7 +451,7 @@ header
 }
 .download
 {
-    min-width: 800px;
+    max-width: 800px;
     margin: auto;
     width: 100%;
     display: grid;
@@ -508,7 +511,7 @@ html::-webkit-scrollbar
     .container
     {
         margin: 0 auto;
-        width: 98%;
+        width: 100%;
     }
     .nav
     {
@@ -654,6 +657,10 @@ html::-webkit-scrollbar
     .copyright .logo
     {
         margin: 0;
+    }
+    .about
+    {
+        text-align: center;
     }
     .about h2,.screenshots h2
     {
