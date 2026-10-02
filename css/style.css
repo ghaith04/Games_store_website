@@ -561,6 +561,10 @@ html::-webkit-scrollbar
     {
         min-height: 300px;
     }
+    .home img
+    {
+        width: auto;
+    }
     .home-text h1
     {
         font-size: 2rem;
@@ -597,6 +601,10 @@ html::-webkit-scrollbar
     {
         min-width: 240px;
     }
+    .home img
+    {
+        width: auto;
+    }
     .home-text
     {
         padding-right: 1rem;
@@ -631,6 +639,10 @@ html::-webkit-scrollbar
     .home
     {
         min-height: 214px;
+    }
+    .home img
+    {
+        width: auto;
     }
     .home-text h1
     {
