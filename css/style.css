@@ -680,3 +680,10 @@ html::-webkit-scrollbar
         font-size: 1.2rem;
     }
 }
+@media (max-width:240px) 
+{
+    .home img
+    {
+        width: auto;
+    }
+}
